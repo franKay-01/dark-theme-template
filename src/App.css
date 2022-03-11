@@ -16,6 +16,13 @@ body{
   border: 2px solid #fff;
 }
 
+.anchor-button-2{
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
 .image-d{
   margin-left: 2rem;
   margin-top: -2rem;
