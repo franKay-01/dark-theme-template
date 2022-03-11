@@ -4,6 +4,7 @@ import { ExclamationIcon } from '@heroicons/react/outline'
 
 import Header from '../components/header';
 import Footer from "../components/footer";
+import Banner1 from '../assets/banner1.png'
 
 import '../App.css'
 
@@ -133,10 +134,6 @@ export default function Explore() {
         <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           <div>
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl banner-header" style={{padding: '0px'}}>Special Item Specifications</h2>
-            <p className="mt-4 text-slate-50">
-              The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated
-              steel divider separates active cards from new ones, or can be used to archive important task lists.
-            </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
               {features.map((feature) => (
@@ -215,13 +212,20 @@ export default function Explore() {
                     </div>
                     <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                       <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
-                        Deactivate account
+                        Product Name
                       </Dialog.Title>
-                      <div className="mt-2">
-                        <p className="text-sm text-gray-500">
-                          Are you sure you want to deactivate your account? All of your data will be permanently removed.
-                          This action cannot be undone.
-                        </p>
+                      <div class="grid justify-center grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="flex justify-center items-center">
+                          <div className="banner-header w-full">
+                            <p>Music for NFT creators.</p>
+                            <p className="banner-para">Digital Music for fans.</p>
+                            <p className="banner-para-2">Music NFTs will continue to revolutionize the way that artists and fans create community together as we enter the upcoming year — undoubtedly changing the trajectory of countless budding music careers. </p>
+                          
+                          </div>
+                        </div>
+                        <div className="flex justify-center items-center">
+                          <img src={Banner1} />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -229,10 +233,10 @@ export default function Explore() {
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                   <button
                     type="button"
-                    className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+                    className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-sky-400 text-base font-medium text-white hover:bg-sky-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm"
                     onClick={() => setOpen(false)}
                   >
-                    Deactivate
+                    Add to Cart
                   </button>
                   <button
                     type="button"
