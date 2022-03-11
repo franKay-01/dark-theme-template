@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;900&family=Roboto&family=Syne+Mono&display=swap');
+
+body{
+  background: #9b59b6;
+  background: radial-gradient(at center, #3498db, #9b59b6);
+  font-family: 'Syne Mono', monospace;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-d-2{
+  height: 15rem !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.anchor-button{
+  border: 2px solid #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-d{
+  margin-left: 2rem;
+  margin-top: -2rem;
+  box-shadow: 0 11px 6px -6px #5982ce;
+  border-radius: 10px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.image-div{
+  height: 16rem;
+  width: 13rem;
+  border-color: #fff;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.play-now {background-image: linear-gradient(to right, #9b59b6 0%, #26a0da  51%, #9b59b6  100%)}
+.play-now {
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+
+ .play-now:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.image-div-2{
+  height: 22rem;
+  width: 16rem;
+  border-color: #fff;
+  border-radius: 5px;
+}
+
+.banner-header{
+  color: #fff;
+  font-family: 'Syne Mono', monospace;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 50px;
+  padding: 5rem;
+}
+
+.banner-para{
+  color: #fff;
+  font-family: 'Syne Mono', monospace;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 30px !important;
+}
+
+.banner-para-2{
+  color: #fff;
+  font-family: 'Syne Mono', monospace;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  margin-top: 1.5rem;
+}
+
+.call-to-action{
+  /* width: 50%; */
+  background: transparent;
+  border: 2px solid;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
