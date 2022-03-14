@@ -1,11 +1,11 @@
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { ExclamationIcon } from '@heroicons/react/outline'
+import { ShoppingBagIcon } from '@heroicons/react/outline'
 
-import Header from '../components/header';
-import Footer from "../components/footer";
+import Header from '../components/header'
+import Footer from '../components/footer'
 import Banner1 from '../assets/banner1.png'
-
+import ShopCart from '../assets/shopping-cart.gif'
 import '../App.css'
 
 export default function Explore() {
@@ -34,7 +34,7 @@ export default function Explore() {
       color: 'Black',
     },
     {
-      id: 1,
+      id: 2,
       name: 'Basic Tee',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg',
@@ -42,7 +42,7 @@ export default function Explore() {
       price: '$35',
       color: 'Black',
     },{
-      id: 1,
+      id: 3,
       name: 'Basic Tee',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg',
@@ -50,7 +50,7 @@ export default function Explore() {
       price: '$35',
       color: 'Black',
     },{
-      id: 1,
+      id: 4,
       name: 'Basic Tee',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg',
@@ -58,7 +58,7 @@ export default function Explore() {
       price: '$35',
       color: 'Black',
     },{
-      id: 1,
+      id: 5,
       name: 'Basic Tee',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg',
@@ -67,7 +67,7 @@ export default function Explore() {
       color: 'Black',
     },
     {
-      id: 1,
+      id: 6,
       name: 'Basic Tee',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg',
@@ -76,7 +76,7 @@ export default function Explore() {
       color: 'Black',
     },
     {
-      id: 1,
+      id: 7,
       name: 'Basic Tee',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg',
@@ -85,7 +85,7 @@ export default function Explore() {
       color: 'Black',
     },
     {
-      id: 1,
+      id: 8,
       name: 'Basic Tee',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
@@ -204,23 +204,21 @@ export default function Explore() {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <div className="relative inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+              <div className="relative inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle" style={{width:'80%'}}>
                 <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                   <div className="sm:flex sm:items-start">
-                    <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
-                      <ExclamationIcon className="h-6 w-6 text-red-600" aria-hidden="true" />
+                    <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
+                      <img src={ShopCart}/>
+                      {/* <ShoppingBagIcon className="h-6 w-6 text-blue-600" aria-hidden="true" /> */}
                     </div>
                     <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                       <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
                         Product Name
                       </Dialog.Title>
-                      <div class="grid justify-center grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="grid justify-center grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="flex justify-center items-center">
                           <div className="banner-header w-full">
-                            <p>Music for NFT creators.</p>
-                            <p className="banner-para">Digital Music for fans.</p>
-                            <p className="banner-para-2">Music NFTs will continue to revolutionize the way that artists and fans create community together as we enter the upcoming year — undoubtedly changing the trajectory of countless budding music careers. </p>
-                          
+                            <p className="text-black">Music for NFT creators.</p>
                           </div>
                         </div>
                         <div className="flex justify-center items-center">
@@ -233,14 +231,14 @@ export default function Explore() {
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                   <button
                     type="button"
-                    className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-sky-400 text-base font-medium text-white hover:bg-sky-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm"
+                    className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-sky-400 text-base font-medium text-white hover:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm"
                     onClick={() => setOpen(false)}
                   >
                     Add to Cart
                   </button>
                   <button
                     type="button"
-                    className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                    className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
                     onClick={() => setOpen(false)}
                     ref={cancelButtonRef}
                   >
