@@ -106,7 +106,7 @@ export default function Explore() {
 
             <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
               {products.map((product) => (
-                <div key={product.id} className="group relative">
+                <div key={product.id} onClick={() => setOpen(true)} className="group relative">
                   <div className="w-full min-h-80 bg-gray-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
                     <img
                       src={product.imageSrc}
@@ -216,13 +216,53 @@ export default function Explore() {
                         Product Name
                       </Dialog.Title>
                       <div className="grid justify-center grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="flex justify-center items-center">
-                          <div className="banner-header w-full">
-                            <p className="text-black">Music for NFT creators.</p>
+                        <dl className="mt-16 grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-8">
+                          <div className="border-t border-black pt-4">
+                            <dt className="text-xl text-black">Material</dt>
+                            <dd className="mt-2 text-xl text-black" style={{marginBottom:'3rem'}}>Solid walnut base with rare earth magnets and powder coated steel card cover</dd>
+
+                            <dt className="text-xl text-black">Description</dt>
+                            <dd className="mt-2 text-xl text-black">Solid walnut base with rare earth magnets and powder coated steel card cover</dd>
+                            <ul class="list-disc p-4">
+                              <li>Solid walnut base with rare earth magnets</li>
+                              <li>Powder coated steel card cover</li>
+                            </ul>
                           </div>
-                        </div>
-                        <div className="flex justify-center items-center">
-                          <img src={Banner1} />
+
+                          <div className="border-t border-black pt-4">
+                            
+                          </div>
+                        </dl>
+                        {/* <div className="flex justify-center items-center"> */}
+                          {/* <img src={Banner1} /> */}
+                          <div className="container mx-auto">
+                            <div className="grid-cols-3 p-2 space-y-2 bg-transparent lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
+                                <div className="w-full rounded">
+                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                        alt="image"/>
+                                </div>
+                                <div className="w-full col-span-2 row-span-2 rounded">
+                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                        alt="image"/>
+                                </div>
+                                <div className="w-full rounded">
+                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                        alt="image"/>
+                                </div>
+                                <div className="w-full rounded">
+                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                        alt="image"/>
+                                </div>
+                                <div className="w-full rounded">
+                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                        alt="image"/>
+                                </div>
+                                <div className="w-full rounded">
+                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                        alt="image"/>
+                                </div>
+                            </div>
+                        {/* </div> */}
                         </div>
                       </div>
                     </div>

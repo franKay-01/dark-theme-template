@@ -30,14 +30,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b><b>0.3242</b></b></div> 
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"
@@ -54,14 +54,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b>0.3242</b></div>
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"
@@ -78,14 +78,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b>0.3242</b></div>
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"
@@ -102,14 +102,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b>0.3242</b></div>
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"
@@ -128,14 +128,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b><b>0.3242</b></b></div>
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"
@@ -152,14 +152,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b>0.3242</b></div>
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"
@@ -176,14 +176,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b>0.3242</b></div>
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"
@@ -200,14 +200,14 @@ export default function ExploreItem() {
                   <div className="flex items-center"><img style={{borderRadius:'10px',marginRight: '5px'}} src={Vector} /> <b>0.3242</b></div>
                 </p>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   className="anchor-button bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Buy Now
                 </a>
                 <a
-                  href="#"
+                  href="/product"
                   type="button"
                   style={{float: 'right', marginRight:'10px'}}
                   className="bg-transparent border-white border-2 text-sm py-2 px-4 border border-transparent font-medium rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 play-now"

@@ -5,7 +5,11 @@ import Header from '../components/header';
 import Footer from "../components/footer";
 
 import '../App.css'
-
+import Nft1 from '../assets/nft1.png'
+import Nft2 from '../assets/nft2.png'
+import Nft3 from '../assets/nft3.png'
+import Nft4 from '../assets/nft4.png'
+import Nft5 from '../assets/nft5.png'
 export default function Product() {
   
   const product = {
@@ -18,19 +22,19 @@ export default function Product() {
     ],
     images: [
         {
-        src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
+        src: Nft1,
         alt: 'Two each of gray, white, and black shirts laying flat.',
         },
         {
-        src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg',
+        src: Nft2,
         alt: 'Model wearing plain black basic tee.',
         },
         {
-        src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg',
+        src: Nft5,
         alt: 'Model wearing plain gray basic tee.',
         },
         {
-        src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
+        src: Nft3,
         alt: 'Model wearing plain white basic tee.',
         },
     ],
@@ -44,7 +48,7 @@ export default function Product() {
         { name: 'XS', inStock: true },
         { name: 'S', inStock: true },
         { name: 'M', inStock: true },
-        { name: 'L', inStock: true },
+        { name: 'L', inStock: false },
         { name: 'XL', inStock: true },
         { name: '2XL', inStock: true },
         { name: '3XL', inStock: true },
@@ -74,37 +78,20 @@ export default function Product() {
       <div className="pt-6">
         <nav aria-label="Breadscrumb">
           <ol role="list" className="max-w-2xl mx-auto px-4 flex items-center space-x-2 sm:px-6 lg:max-w-7xl lg:px-8">
-            {product.breadcrumbs.map((breadcrumb) => (
-              <li key={breadcrumb.id}>
+              <li>
                 <div className="flex items-center">
-                  <a href={breadcrumb.href} className="mr-2 text-sm font-medium text-slate-50">
-                    {breadcrumb.name}
+                  <a href="#" className="mr-2 text-sm font-medium text-slate-50">
+                    Basic Tee 6-Pack
                   </a>
-                  <svg
-                    width={16}
-                    height={20}
-                    viewBox="0 0 16 20"
-                    fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    className="w-4 h-5 text-gray-300"
-                  >
-                    <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
-                  </svg>
                 </div>
               </li>
-            ))}
-            <li className="text-sm">
-              <a href={product.href} aria-current="page" className="font-medium text-slate-50 hover:text-slate-50">
-                {product.name}
-              </a>
-            </li>
+            
           </ol>
         </nav>
 
         {/* Image gallery */}
         <div className="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-          <div className="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
+          <div className="hidden aspect-w-3 aspect-h-4 bg-slate-50 rounded-lg overflow-hidden lg:block">
             <img
               src={product.images[0].src}
               alt={product.images[0].alt}
@@ -112,14 +99,14 @@ export default function Product() {
             />
           </div>
           <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
-            <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+            <div className="aspect-w-3 aspect-h-2 rounded-lg bg-slate-50 overflow-hidden">
               <img
                 src={product.images[1].src}
                 alt={product.images[1].alt}
                 className="w-full h-full object-center object-cover"
               />
             </div>
-            <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+            <div className="aspect-w-3 aspect-h-2 rounded-lg bg-slate-50 overflow-hidden">
               <img
                 src={product.images[2].src}
                 alt={product.images[2].alt}
@@ -127,7 +114,7 @@ export default function Product() {
               />
             </div>
           </div>
-          <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+          <div className="aspect-w-4 aspect-h-5 sm:rounded-lg bg-slate-50 sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
             <img
               src={product.images[3].src}
               alt={product.images[3].alt}
