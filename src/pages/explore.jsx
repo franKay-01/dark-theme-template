@@ -6,6 +6,10 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Banner1 from '../assets/banner1.png'
 import ShopCart from '../assets/shopping-cart.gif'
+import Nft1 from '../assets/nft1.png'
+import Nft2 from '../assets/nft2.png'
+import Nft3 from '../assets/nft3.png'
+import Nft5 from '../assets/nft5.png'
 import '../App.css'
 
 export default function Explore() {
@@ -28,7 +32,7 @@ export default function Explore() {
       id: 1,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+      imageSrc: Nft1,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -37,7 +41,7 @@ export default function Explore() {
       id: 2,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg',
+      imageSrc: Nft2,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -45,7 +49,7 @@ export default function Explore() {
       id: 3,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg',
+      imageSrc: Nft3,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -53,7 +57,7 @@ export default function Explore() {
       id: 4,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg',
+      imageSrc: Nft5,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -61,7 +65,7 @@ export default function Explore() {
       id: 5,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg',
+      imageSrc: Nft2,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -70,7 +74,7 @@ export default function Explore() {
       id: 6,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg',
+      imageSrc: Nft1,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -79,7 +83,7 @@ export default function Explore() {
       id: 7,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg',
+      imageSrc: Nft5,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -88,7 +92,7 @@ export default function Explore() {
       id: 8,
       name: 'Basic Tee',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+      imageSrc: Nft3,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
@@ -154,22 +158,22 @@ export default function Explore() {
           </div>
           <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+              src={Nft3}
               alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
               className="bg-slate-50 rounded-lg"
             />
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg"
+              src={Nft5}
               alt="Top down view of walnut card tray with embedded magnets and card groove."
               className="bg-slate-50 rounded-lg"
             />
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg"
+              src={Nft1}
               alt="Side of walnut card tray with card groove and recessed card area."
               className="bg-slate-50 rounded-lg"
             />
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg"
+              src={Nft2}
               alt="Walnut card tray filled with cards and card angled in dedicated groove."
               className="bg-slate-50 rounded-lg"
             />
@@ -238,27 +242,27 @@ export default function Explore() {
                           <div className="container mx-auto">
                             <div className="grid-cols-3 p-2 space-y-2 bg-transparent lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
                                 <div className="w-full rounded">
-                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                    <img src={Nft2}
                                         alt="image"/>
                                 </div>
                                 <div className="w-full col-span-2 row-span-2 rounded">
-                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                    <img src={Nft3}
                                         alt="image"/>
                                 </div>
                                 <div className="w-full rounded">
-                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                    <img src={Nft1}
                                         alt="image"/>
                                 </div>
                                 <div className="w-full rounded">
-                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                    <img src={Nft1}
                                         alt="image"/>
                                 </div>
                                 <div className="w-full rounded">
-                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                    <img src={Nft2}
                                         alt="image"/>
                                 </div>
                                 <div className="w-full rounded">
-                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                                    <img src={Nft2}
                                         alt="image"/>
                                 </div>
                             </div>

@@ -8,7 +8,6 @@ import '../App.css'
 import Nft1 from '../assets/nft1.png'
 import Nft2 from '../assets/nft2.png'
 import Nft3 from '../assets/nft3.png'
-import Nft4 from '../assets/nft4.png'
 import Nft5 from '../assets/nft5.png'
 export default function Product() {
   
